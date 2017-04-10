@@ -1,0 +1,49 @@
+html{
+	height : 100%;
+}
+
+body{
+	font-family: sans-serif;
+    background-image:url(pic.jpg);
+    height : 100%;
+}
+
+
+
+#perso{
+	background-color: #333;
+	text-align: center;
+	padding : 20px;
+	margin-bottom: 20px;
+	color: white;
+
+}
+
+.englobante{
+	height : 100%;
+
+}
+.englobante:before{
+	display: block ;
+	height : 18%;
+	content : "";
+
+}
+.active {
+    background-color: #4CAF50;
+}
+
+.navbar .nav {
+  float:none;
+  display:inline-block;
+  *zoom:1; /* hasLayout ie7 trigger */
+  vertical-align: top;
+}
+
+.navbar-inner {
+  text-align:center;
+}
+
+a:hover{
+	background-color: red;
+}
