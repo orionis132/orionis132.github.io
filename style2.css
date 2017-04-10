@@ -1,0 +1,9 @@
+body{
+    opacity: 0;
+    transform: translateX(-200px);
+}
+body.is-ready{
+    opacity: 1;
+    transform: translateX(0);
+    transition-duration: 1s;
+}
